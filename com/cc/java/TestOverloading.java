@@ -58,32 +58,32 @@ public class TestOverloading {
 	// }
 	
 	
-	// BasisMethode
-	public void sayHello2(String name, int counter) {
-		System.out.println("1: Parameter name: " + name + " | Parameter: counter: " + counter);
-	}
+	// // BasisMethode
+	// public void sayHello2(String name, int counter) {
+	// 	System.out.println("1: Parameter name: " + name + " | Parameter: counter: " + counter);
+	// }
 	
 	// // Überladene Methode 1 (Reihenfolge Parameter)
-	public void sayHello2(int counter, String name) {
-		System.out.println("2: Parameter name: " + name + " | Parameter: counter: " + counter);
-	}
+	// public void sayHello2(int counter, String name) {
+	// 	System.out.println("2: Parameter name: " + name + " | Parameter: counter: " + counter);
+	// }
 	
 	// // Überladene Methode 3 (Anzahl Parameter)
-	public void sayHello2() {
-		System.out.println("3: Ohne parameter");
-	}
+	// public void sayHello2() {
+	// 	System.out.println("3: Ohne parameter");
+	// }
 	
 	
 	// // BasisMethode
-	public void sayHello3(String name, int ID) {
-		System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
-	}
+	// public void sayHello3(String name, int ID) {
+	// 	System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
+	// }
 	
 	
 	// // Überladene Methode 3 (Parameter Typ)
-	public void sayHello3(String name, String ID) {
-		System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
-	}
+	// public void sayHello3(String name, String ID) {
+	// 	System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
+	// }
 	
 
 
